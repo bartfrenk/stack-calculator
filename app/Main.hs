@@ -5,7 +5,7 @@ module Main where
 import           BasicPrelude
 import           Control.Monad.Managed
 
-import qualified StackMap.Impl.ConcurrentStack as StackMap
+import qualified StackMap.Impl.CTrie as StackMap
 import qualified StackMap
 import qualified Server
 

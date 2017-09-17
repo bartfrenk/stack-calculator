@@ -19,12 +19,13 @@ library
                        Server.API
                        StackMap
                        StackMap.Impl.ConcurrentStack
+                       StackMap.Impl.CTrie
   other-modules:       Server.Handlers
   build-depends:       base >= 4.7 && < 5
                      , aeson
                      , basic-prelude
                      , containers
-                     , ctrie
+                     , ctrie==0.1.1.0
                      , lens
                      , mtl
                      , servant
