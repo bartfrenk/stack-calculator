@@ -5,9 +5,11 @@ module Main where
 import           BasicPrelude
 import           Control.Monad.Managed
 
-import qualified StackMap.Impl.CTrie as StackMap
-import qualified StackMap
 import qualified Server
+import qualified StackMap
+import qualified StackMap.Impl.STM     as StackMap
+
+
 
 serverC :: Server.Config
 serverC = Server.Config
